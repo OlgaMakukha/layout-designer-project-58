@@ -136,6 +136,31 @@ p {
   text-decoration: none;
 }
 
+.video-section {
+  height: 800px;
+  background-color: var(--white);
+  text-align: center;
+}
+
+.video-title {
+  font-family: "Neucha";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-top: 100px;
+  margin-bottom: 27px;
+}
+
+.video-description {
+  margin-bottom: 30px;
+}
+
+.video {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  border: none;
+}
+
 /* .hello {
   display: block;
 
