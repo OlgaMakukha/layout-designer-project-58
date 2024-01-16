@@ -345,13 +345,15 @@ a.card{
   flex-basis: 50%;
 }
 
-.premature-optimization {
+.premature-optimization,
+.hyperbolic-depreciation {
   position: relative;
   background-color: var(--broun);
   color: var(--white);
 }
 
-.premature-optimization::before {
+.premature-optimization::before,
+.hyperbolic-depreciation::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -362,7 +364,8 @@ a.card{
   opacity: 0.1;
 }
 
-.optimisation-container {
+.optimisation-container,
+.hyperbolic-container {
   position: relative;
   margin: 0 auto;
   display: flex;
@@ -374,17 +377,20 @@ a.card{
   margin: 0 auto;
 }
 
-.optimisation-first-section {
+.optimisation-first-section,
+.hyperbolic-first-section {
   display: flex;
   flex-direction: row-reverse;
   gap: 30px;
 }
 
-.optimisation-image {
+.optimisation-image,
+.hyperbolic-image {
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
 }
 
-.optimisation-title {
+.optimisation-title,
+.hyperbolic-title {
   margin: 0;
   margin-bottom: 30px;
   color: var(--white);
@@ -395,7 +401,8 @@ a.card{
   line-height: 120%;
 }
 
-.optimisation-title-small {
+.optimisation-title-small,
+.hyperbolic-title-small {
   display: inline-block;
   color: var(--semitransparent-white);
   font-family: "Neucha";
@@ -405,7 +412,8 @@ a.card{
   line-height: 120%;
 }
 
-.optimisation-description {
+.optimisation-description,
+.hyperbolic-description {
   color: var(--white);
   font-family: "Neucha";
   font-size: 34px;
@@ -414,7 +422,8 @@ a.card{
   line-height: 120%;
 }
 
-.optimisation-title-second-container {
+.optimisation-title-second-container,
+.hyperbolic-title-second-container {
   width: 1110px;
   height: 26px;
   background-color: var(--white);
@@ -422,7 +431,8 @@ a.card{
   margin-bottom: 20px;
 }
 
-.optimisation-title-second {
+.optimisation-title-second,
+.hyperbolic-title-second {
   color: var(--broun);
   font-family: "Open Sans";
   font-size: 14px;
@@ -434,13 +444,15 @@ a.card{
   padding: 5px 10px;
 }
 
-.optimisation-description-two-container {
+.optimisation-description-two-container,
+.hyperbolic-description-two-container {
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
 
-.optimisation-description-two {
+.optimisation-description-two,
+.hyperbolic-description-two {
   flex-basis: 50%;
 }
 
