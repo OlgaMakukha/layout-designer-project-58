@@ -234,13 +234,15 @@ a.card{
   line-height: 160%;
 }
 
-.ikea-section {
+.ikea-section,
+.distortion-of-novelty {
   position: relative;
   background-color: var(--light);
   color: var(--dark);
 }
 
-.ikea-section::before {
+.ikea-section::before,
+.distortion-of-novelty::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -251,7 +253,8 @@ a.card{
   opacity: 0.1;
 }
 
-.ikea-container {
+.ikea-container,
+.distortion-container {
   position: relative;
   margin: 0 auto;
   display: flex;
@@ -263,17 +266,20 @@ a.card{
   margin: 0 auto;
 }
 
-.ikea-first-section {
+.ikea-first-section,
+.distortion-first-section {
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
 
-.ikea-image {
+.ikea-image,
+.distortion-image {
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
 }
 
-.ikea-title {
+.ikea-title,
+.distortion-title {
   margin: 0;
   margin-bottom: 30px;
   color: var(--dark);
@@ -284,7 +290,8 @@ a.card{
   line-height: 120%;
 }
 
-.ikea-title-small {
+.ikea-title-small,
+.distortion-title-small {
   display: inline-block;
   color: var(--semitransparent-dark);
   font-family: "Neucha";
@@ -294,7 +301,8 @@ a.card{
   line-height: 120%;
 }
 
-.ikea-description {
+.ikea-description,
+.distortion-description {
   color: var(--dark);
   font-family: "Neucha";
   font-size: 34px;
@@ -303,7 +311,8 @@ a.card{
   line-height: 120%;
 }
 
-.ikea-title-second-container {
+.ikea-title-second-container,
+.distortion-title-second-container {
   width: 1110px;
   height: 26px;
   background-color: var(--broun);
@@ -311,8 +320,8 @@ a.card{
   margin-bottom: 20px;
 }
 
-.ikea-title-second {
-  display: inline-block;
+.ikea-title-second,
+.distortion-title-second {
   color: var(--white);
   font-family: "Open Sans";
   font-size: 14px;
@@ -324,13 +333,15 @@ a.card{
   padding: 5px 10px;
 }
 
-.ikea-description-two-container {
+.ikea-description-two-container,
+.distortion-description-two-container {
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
 
-.ikea-description-two {
+.ikea-description-two,
+.distortion-description-two {
   flex-basis: 50%;
 }
 
@@ -412,7 +423,6 @@ a.card{
 }
 
 .optimisation-title-second {
-  display: inline-block;
   color: var(--broun);
   font-family: "Open Sans";
   font-size: 14px;
