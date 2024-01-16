@@ -235,14 +235,16 @@ a.card{
 }
 
 .ikea-section,
-.distortion-of-novelty {
+.distortion-of-novelty,
+.errors-in-planning {
   position: relative;
   background-color: var(--light);
   color: var(--dark);
 }
 
 .ikea-section::before,
-.distortion-of-novelty::before {
+.distortion-of-novelty::before,
+.errors-in-planning::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -254,7 +256,8 @@ a.card{
 }
 
 .ikea-container,
-.distortion-container {
+.distortion-container,
+.errors-container {
   position: relative;
   margin: 0 auto;
   display: flex;
@@ -267,19 +270,22 @@ a.card{
 }
 
 .ikea-first-section,
-.distortion-first-section {
+.distortion-first-section,
+.errors-first-section {
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
 
 .ikea-image,
-.distortion-image {
+.distortion-image,
+.errors-image {
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
 }
 
 .ikea-title,
-.distortion-title {
+.distortion-title,
+.errors-title {
   margin: 0;
   margin-bottom: 30px;
   color: var(--dark);
@@ -291,7 +297,8 @@ a.card{
 }
 
 .ikea-title-small,
-.distortion-title-small {
+.distortion-title-small,
+.errors-title-small {
   display: inline-block;
   color: var(--semitransparent-dark);
   font-family: "Neucha";
@@ -302,7 +309,8 @@ a.card{
 }
 
 .ikea-description,
-.distortion-description {
+.distortion-description,
+.errors-description {
   color: var(--dark);
   font-family: "Neucha";
   font-size: 34px;
@@ -312,7 +320,8 @@ a.card{
 }
 
 .ikea-title-second-container,
-.distortion-title-second-container {
+.distortion-title-second-container,
+.errors-title-second-container {
   width: 1110px;
   height: 26px;
   background-color: var(--broun);
@@ -321,7 +330,8 @@ a.card{
 }
 
 .ikea-title-second,
-.distortion-title-second {
+.distortion-title-second,
+.errors-title-second {
   color: var(--white);
   font-family: "Open Sans";
   font-size: 14px;
@@ -334,15 +344,21 @@ a.card{
 }
 
 .ikea-description-two-container,
-.distortion-description-two-container {
+.distortion-description-two-container,
+.errors-description-two-container {
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
 
 .ikea-description-two,
-.distortion-description-two {
+.distortion-description-two,
+.errors-description-two {
   flex-basis: 50%;
+}
+
+div .errors-description-two:nth-child(1) {
+  margin-bottom: 16px;
 }
 
 .premature-optimization,
