@@ -31,6 +31,10 @@
         url(../fonts/AnyConv.com__Neucha-Regular.woff);
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -87,7 +91,7 @@ body {
 .header-image {
   position: absolute;
   top: 55px;
-  right: -270px;
+  right: -160px;
 }
 
 .header-description {
