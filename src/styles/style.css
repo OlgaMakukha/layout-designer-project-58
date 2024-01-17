@@ -384,13 +384,12 @@ div .errors-description-two:nth-child(1) {
 .hyperbolic-container {
   position: relative;
   margin: 0 auto;
+  padding: 100px 0;
   display: flex;
   flex-direction: column;
   position: relative;
   max-width: 1110px;
   min-height: 900px;
-  padding: 100px 0;
-  margin: 0 auto;
 }
 
 .optimisation-first-section,
@@ -470,6 +469,124 @@ div .errors-description-two:nth-child(1) {
 .optimisation-description-two,
 .hyperbolic-description-two {
   flex-basis: 50%;
+}
+
+.footer {
+  position: relative;
+  background-color: var(--white);
+}
+
+.footer-container {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 1110px;
+  height: 581px;
+  padding: 100px 0;
+}
+
+.footer-send {
+  display: flex;
+  flex-direction: row;
+  gap: 122px;
+  width: 1110px;
+  height: 190px;
+  padding: 55px;
+  background-color: var(--main-dark);
+  color: var(--white);
+}
+
+.footer-title {
+  font-family: "Neucha";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin: 0;
+}
+
+.footer-send-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-title {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 9px;
+}
+
+.input-flex {
+  display: flex;
+}
+
+.input-email {
+  width: 423px;
+  height: 50px;
+  border: 1px solid #E3E3E3;
+  background-color: var(--white);
+  padding: 15px;
+}
+
+::placeholder {
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  opacity: 0.2;
+}
+
+.footer-button {
+  border: none;
+  position: relative;
+  width: 70px;
+  height: 50px;
+  padding: 13px 23px;
+  background-color: var(--main);
+}
+
+.footer-button::before {
+  position: absolute;
+  content: "";
+  background-image: url(../img/send.svg);
+  width: 24px;
+  height: 24px;
+  left: 20px;
+  top: 13px;
+}
+
+.footer-agreement {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.agreement {
+  color: var(--white);
+}
+
+.footer-name {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.footer-name p:not(:last-of-type) {
+  padding-bottom: 16px;
 }
 
 /* .hello {
