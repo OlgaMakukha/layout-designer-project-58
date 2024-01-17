@@ -589,8 +589,7 @@ div .errors-description-two:nth-child(1) {
   padding-bottom: 16px;
 }
 
-/* .hello {
-  display: block;
+.footer-name p a {
+  color: #007DC1;
+}
 
-  color: #fff;
-} */
