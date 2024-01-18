@@ -259,7 +259,6 @@ a.card{
   flex-direction: column;
   position: relative;
   max-width: 1110px;
-  min-height: 900px;
   padding: 100px 0;
   margin: 0 auto;
 }
@@ -384,7 +383,6 @@ div .errors-description-two:nth-child(1) {
   flex-direction: column;
   position: relative;
   max-width: 1110px;
-  min-height: 900px;
 }
 
 .optimisation-first-section,
