@@ -285,6 +285,10 @@ a.card{
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
 }
 
+.image-container {
+  display: flex;
+}
+
 .ikea-title,
 .distortion-title,
 .errors-title {
@@ -327,7 +331,7 @@ a.card{
   width: 1110px;
   height: 26px;
   background-color: var(--broun);
-  margin-top: 95px;
+  margin-top: 100px;
   margin-bottom: 20px;
 }
 
@@ -442,7 +446,7 @@ div .errors-description-two:nth-child(1) {
   width: 1110px;
   height: 26px;
   background-color: var(--white);
-  margin-top: 95px;
+  margin-top: 100px;
   margin-bottom: 20px;
 }
 
