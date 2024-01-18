@@ -49,6 +49,7 @@ body {
   height: 914px;
   background-color: var(--light);
   color: var(--dark);
+  overflow: hidden;
 }
 
 .header-section::before {
@@ -88,14 +89,10 @@ body {
   line-height: 120%;
 }
 
-/* .image-hidden {
-  overflow: auto;
-} */
-
 .header-image {
   position: absolute;
-  top: 51px;
-  right: -165px;
+  top: 50px;
+  right: -270px;
 }
 
 .header-description {
