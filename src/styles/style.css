@@ -124,7 +124,7 @@ p {
   margin-top: 40px;
   width: 148px;
   height: 49px;
-  padding: 11px 23px 12px 24px;
+  padding: 12px 24px;
   background-color: var(--main);
   color: var(--white);
   font-weight: 700;
@@ -265,10 +265,8 @@ a.card{
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  position: relative;
   max-width: 1110px;
   padding: 100px 0;
-  margin: 0 auto;
 }
 
 .ikea-first-section,
@@ -355,6 +353,7 @@ a.card{
   display: flex;
   flex-direction: row;
   gap: 30px;
+  padding: 0;
 }
 
 .ikea-description-two,
@@ -476,6 +475,7 @@ div .errors-description-two:nth-child(1) {
 }
 
 .footer {
+  display: flex;
   position: relative;
   background-color: var(--white);
 }
@@ -485,9 +485,8 @@ div .errors-description-two:nth-child(1) {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  position: relative;
   max-width: 1110px;
-  max-height: 581px;
+  min-height: 581px;
   padding: 100px 0 111px 0;
 }
 
@@ -597,3 +596,6 @@ div .errors-description-two:nth-child(1) {
   color: #007DC1;
 }
 
+.errors-container {
+  min-height: 919px;
+}
