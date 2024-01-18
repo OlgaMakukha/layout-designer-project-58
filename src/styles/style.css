@@ -88,10 +88,14 @@ body {
   line-height: 120%;
 }
 
+/* .image-hidden {
+  overflow: auto;
+} */
+
 .header-image {
   position: absolute;
-  top: 55px;
-  right: -160px;
+  top: 51px;
+  right: -165px;
 }
 
 .header-description {
@@ -127,10 +131,7 @@ p {
   margin-top: 40px;
   width: 148px;
   height: 49px;
-  display: inline-flex;
   padding: 11px 23px 12px 24px;
-  justify-content: center;
-  align-items: center;
   background-color: var(--main);
   color: var(--white);
   font-weight: 700;
