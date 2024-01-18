@@ -31,10 +31,6 @@
         url(../fonts/AnyConv.com__Neucha-Regular.woff);
 }
 
-img {
-  max-width: 100%;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -482,7 +478,7 @@ div .errors-description-two:nth-child(1) {
   flex-direction: column;
   position: relative;
   max-width: 1110px;
-  height: 581px;
+  max-height: 581px;
   padding: 100px 0;
 }
 
