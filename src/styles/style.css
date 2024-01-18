@@ -191,7 +191,14 @@ a:hover p {
 
 .card {
   width: 350px;
-  min-height: 323px;
+}
+
+.card:nth-of-type(2) {
+  height: 323px;
+}
+
+.card:nth-of-type(3n+1):not(:nth-of-type(1)) {
+  height: 348px;
 }
 
 a.card{
@@ -320,7 +327,7 @@ a.card{
   width: 1110px;
   height: 26px;
   background-color: var(--broun);
-  margin-top: 100px;
+  margin-top: 95px;
   margin-bottom: 20px;
 }
 
@@ -435,7 +442,7 @@ div .errors-description-two:nth-child(1) {
   width: 1110px;
   height: 26px;
   background-color: var(--white);
-  margin-top: 100px;
+  margin-top: 95px;
   margin-bottom: 20px;
 }
 
