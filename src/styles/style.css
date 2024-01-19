@@ -171,7 +171,7 @@ h3 {
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   border: none;
-  margin-bottom: -84px;
+  margin-bottom: -100px;
 }
 
 .navigation {
@@ -189,6 +189,7 @@ h3 {
 .navigation h2 {
   font-size: 52px;
   width: 350px;
+  height: 312px;
 }
 
 .navigation span {
@@ -202,8 +203,8 @@ h3 {
   padding: 24px;
 }
 
-.card:first-of-type,
-.card:nth-of-type(2) {
+.card:nth-child(2),
+.card:nth-child(3) {
   height: 323px;
 }
 
