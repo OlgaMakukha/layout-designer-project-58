@@ -171,7 +171,7 @@ h3 {
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   border: none;
-  margin-bottom: -90px;
+  margin-bottom: -84px;
 }
 
 .navigation {
@@ -188,7 +188,7 @@ h3 {
 
 .navigation h2 {
   font-size: 52px;
-  margin-right: 9px;
+  width: 350px;
 }
 
 .navigation span {
