@@ -77,9 +77,9 @@ h3 {
   color: var(--dark);
 }
 
-span.dark-title {
+/* span.dark-title {
   line-height: 100%;
-}
+} */
 
 .header-section {
   position: relative;
@@ -149,120 +149,105 @@ span.dark-title {
   border: none;
 }
 
-
-
-
-
 .video-section {
-  height: 814px;
-  background-color: var(--white);
-  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: var(--white);
 }
 
-.video-title {
-  font-family: "Neucha";
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
-  margin: 0;
-  margin-bottom: 27px;
+.video-section h2 {
+  padding-top: 100px;
   text-align: center;
 }
 
-.video-description {
+.video-section p {
+  margin-top: 30px;
   margin-bottom: 30px;
-  text-align: center;
+  color: #212529;
 }
 
 .video {
-  display: block;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   border: none;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
+  margin-bottom: -90px;
 }
 
-.navigation-section {
+.navigation {
   background-color: var(--main-dark);
+  padding-top: 100px;
 }
 
-.container-navigation {
+.container-navigation-flex {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 20px 30px;
-  padding: 200px 0 100px;
-  margin: 0 auto;
-  max-width: 1110px;
-  height: 991px;
 }
 
-.container-navigation a:hover,
-a:hover h3,
-a:hover span,
-a:hover p {
-  color: var(--white);
-  background-color: var(--main);
-}
-
-.navigation-section-title {
-  font-family: "Neucha";
+.navigation h2 {
   font-size: 52px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
+  margin-right: 9px;
+}
+
+.navigation span {
   color: var(--white);
-  margin: 0;
 }
 
 .card {
+  background-color: var(--light);
   width: 350px;
+  height: 348px;
+  padding: 24px;
 }
 
+.card:first-of-type,
 .card:nth-of-type(2) {
   height: 323px;
 }
 
-.card:nth-of-type(3n+1):not(:nth-of-type(1)) {
-  height: 348px;
-}
-
-a.card{
-  background-color: var(--light);
-  text-decoration: none;
-  padding: 24px;
-}
-
 .card-number {
-  display: inline-block;
-  color: var(--main-dark);
-  font-family: "Neucha";
+  font-family: "Neucha",sans-serif;
   font-size: 64px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1;
-  margin-bottom: 40px;
 }
 
-.navigation-title {
-  font-family: "Neucha";
-  font-size: 34px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
-  margin: 0;
+span.card-number {
+  color: var(--main-dark);
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card h3 {
+  margin-top: 40px;
   margin-bottom: 16px;
 }
 
-.navigation-description {
-  color: var(--dark);
-  font-family: Open Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%;
+.card:nth-of-type(5) h3 {
+  margin-bottom: 12px;
 }
+
+.card p {
+  color: var(--dark);
+}
+
+.card:hover {
+  background-color: var(--main);
+}
+
+.card:hover span,
+.card:hover h3,
+.card:hover p {
+  color: var(--white);
+}
+
+
+
+
+
 
 .ikea-section,
 .distortion-of-novelty,
@@ -627,4 +612,4 @@ div .errors-description-two:nth-child(1) {
 
 .errors-container {
   min-height: 919px;
-} */
+} */ */
