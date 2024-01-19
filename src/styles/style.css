@@ -1,13 +1,13 @@
 @font-face {
-  font-family: "Neucha";
+  font-family: Neucha;
   src: url(../fonts/AnyConv.com__Neucha-Regular.woff2),
-      url(../fonts/AnyConv.com__Neucha-Regular.woff);
+       url(../fonts/AnyConv.com__Neucha-Regular.woff);
 }
 
 @font-face {
-  font-family: "OpenSans";
+  font-family: OpenSans;
   src: url(../fonts/AnyConv.com__OpenSans-Regular.woff2),
-      url(../fonts/AnyConv.com__OpenSans-Regular.woff);
+       url(../fonts/AnyConv.com__OpenSans-Regular.woff);
 }
 
 body {
