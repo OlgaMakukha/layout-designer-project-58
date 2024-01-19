@@ -142,13 +142,42 @@ h3 {
   margin: 0 0 -170px;
 }
 
-.video {
-  display: block;
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
-  margin: 0 auto;
+.video-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: var(--white);
+}
+
+
+.video-section h2:not(span) {
   text-align: center;
-  position: relative;
-  top: 200px;
+  padding-top: 100px;
+}
+
+.video-title-black {
+  color: #2A2626;
+}
+
+.video-sect-p {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #212529;
+}
+
+.video {
+  box-sizing: border-box;
+  border: 0;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  margin-bottom: -90px;
 }
 
 #navigation {
