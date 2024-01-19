@@ -1,20 +1,18 @@
 @font-face {
-  font-family: "Neucha", sans-serif;
-  src:
-    url("../fonts/AnyConv.com__Neucha-Regular.woff2"),
-      url("../fonts/AnyConv.com__Neucha-Regular.woff");
+  font-family: "Neucha";
+  src: url(../fonts/AnyConv.com__Neucha-Regular.woff2),
+      url(../fonts/AnyConv.com__Neucha-Regular.woff);
 }
 
 @font-face {
-  font-family: "OpenSans", sans-serif;
-  src:
-    url("../fonts/AnyConv.com__OpenSans-Regular.woff2"),
-      url("../fonts/AnyConv.com__OpenSans-Regular.woff");
+  font-family: "OpenSans";
+  src: url(../fonts/AnyConv.com__OpenSans-Regular.woff2),
+      url(../fonts/AnyConv.com__OpenSans-Regular.woff);
 }
 
 body {
   font-size: 16px;
-  font-family: OpenSans, sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-weight: 400;
   color: #2a2626;
   line-height: 1.6em;
