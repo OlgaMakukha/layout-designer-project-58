@@ -50,6 +50,7 @@ h3 {
   box-sizing: border-box;
   background-color: #f5f4f0;
   position: relative;
+  overflow: hidden;
 }
 
 .main-bkg::before {
