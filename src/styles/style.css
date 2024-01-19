@@ -1,13 +1,13 @@
 @font-face {
-  font-family: "Neucha";
+  font-family: 'Neucha';
   src: url("../fonts/AnyConv.com__Neucha-Regular.woff2"),
-  url(../fonts/AnyConv.com__Neucha-Regular.woff);
+        url("../fonts/AnyConv.com__Neucha-Regular.woff");
 }
 
 @font-face {
-  font-family: "OpenSans";
+  font-family: 'OpenSans';
   src: url("../fonts/AnyConv.com__OpenSans-Regular.woff2"),
-  url(../fonts/AnyConv.com__OpenSans-Regular.woff);
+        url("../fonts/AnyConv.com__OpenSans-Regular.woff");
 }
 
 body {
@@ -150,14 +150,13 @@ h3 {
   background: var(--white);
 }
 
-
 .video-section h2:not(span) {
   text-align: center;
   padding-top: 100px;
 }
 
 .video-title-black {
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .video-sect-p {
@@ -176,7 +175,7 @@ h3 {
 .video {
   box-sizing: border-box;
   border: 0;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   margin-bottom: -90px;
 }
 
@@ -220,7 +219,6 @@ h3 {
 .navigation-item-link {
   text-decoration: none;
 }
-
 
 .navigation-item:nth-child(-n+3) {
   margin-bottom: 20px;
